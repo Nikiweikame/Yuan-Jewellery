@@ -83,10 +83,10 @@ h1 {
       <div class="container-fluid">
         <h1>
           <a class="navbar-brand" href="#">
-            <img src="./center-logo-70x70.png" alt="苑・飾物logo" />
+            <img :src="logo" alt="苑・飾物logo" />
             <img
               class="company-name"
-              src="./company-name2.png"
+              :src="companyName2"
               alt="苑・飾物name"
             />
           </a>
