@@ -77,7 +77,7 @@ const product = ref([
 ]);
 const script = document.createElement("script");
 script.type = "text/javascript";
-script.src = "js/masonry.js";
+script.src = "./js/masonry.js";
 // watch(counterStore.designSampleArray, () => {
 //   document.body.appendChild(script);
 // });

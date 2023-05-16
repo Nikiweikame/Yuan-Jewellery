@@ -4,13 +4,18 @@ import HelloWorld from "./components/HelloWorld.vue";
 import Header from "./components/Header.vue";
 import SlideContainer from "./components/SlideContainer.vue";
 import Footer from "./components/Footer.vue";
+import NewProduct from "./components/NewProduct.vue";
+import IGLink from "./components/IGLink.vue";
+import LastestActivity from "./components/lastestActivity.vue";
 </script>
 
 <template>
   <Header />
   <main>
     <SlideContainer />
-    <RouterView />
+    <NewProduct />
+    <IGLink />
+    <LastestActivity />
   </main>
   <Footer />
 </template>

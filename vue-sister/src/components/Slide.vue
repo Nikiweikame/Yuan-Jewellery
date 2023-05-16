@@ -13,7 +13,7 @@ const AA = defineProps({
 
 const script = document.createElement("script");
 script.type = "text/javascript";
-script.src = "/js/revslider.js";
+script.src = "./js/revslider.js";
 onMounted(() => {
   document.body.appendChild(script);
   document
