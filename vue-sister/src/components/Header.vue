@@ -1,8 +1,10 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
 import { ref, onMounted } from "vue";
-import { useCounterStore } from "@/stores/counter.js";
-const counterStore = useCounterStore();
+// import { useCounterStore } from "@/stores/counter.js";
+// const counterStore = useCounterStore();
+const logo = ref("./assets/center-logo-70x70.png")
+
 </script>
 <style lang="scss" scoped>
 h1 {
@@ -80,10 +82,10 @@ h1 {
       <div class="container-fluid">
         <h1>
           <a class="navbar-brand" href="#">
-            <img src="../assets/center-logo-70x70.png" alt="苑・飾物logo" />
+            <img src="./center-logo-70x70.png" alt="苑・飾物logo" />
             <img
               class="company-name"
-              src="../assets/company-name2.png"
+              src="./company-name2.png"
               alt="苑・飾物name"
             />
           </a>
