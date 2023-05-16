@@ -3,7 +3,8 @@ import { RouterLink, RouterView } from "vue-router";
 import { ref, onMounted } from "vue";
 // import { useCounterStore } from "@/stores/counter.js";
 // const counterStore = useCounterStore();
-const logo = ref("./assets/center-logo-70x70.png")
+const logo = ref("./center-logo-70x70.png")
+const companyName = ref("./company-name2.png")
 
 </script>
 <style lang="scss" scoped>
