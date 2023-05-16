@@ -2,6 +2,9 @@
 </template>
 
 <style scoped lang="scss">
+
+@media screen and (min-width: 480) {
+}
 </style>
 
-<script></script>
+<script setup></script>
