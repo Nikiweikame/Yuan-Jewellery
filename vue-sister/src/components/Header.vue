@@ -86,7 +86,7 @@ h1 {
             <img :src="logo" alt="苑・飾物logo" />
             <img
               class="company-name"
-              :src="companyName2"
+              :src="companyName"
               alt="苑・飾物name"
             />
           </a>
