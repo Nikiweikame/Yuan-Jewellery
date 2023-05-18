@@ -28,7 +28,7 @@ h1 {
   }
 }
 .header {
-  padding: 10px 30px;
+  padding: 10px;
   // height: 70px;
   background-color: white;
   justify-content: flex-end;
@@ -63,6 +63,11 @@ h1 {
   }
   .navbar-nav {
     padding: 40px 0 15px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .header{
+    padding: 10px 30px;
   }
 }
 @media screen and (min-width: 992px) {
